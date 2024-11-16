@@ -1,0 +1,254 @@
+/* storage */
+
+.storage__title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+}
+
+.storage__spangreen {
+  color: #77be1d;
+}
+
+.storage__menu-and-order {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 50px;
+}
+
+.storage__menu-info {
+  margin-bottom: 30px;
+  padding: 30px 200px 30px 30px;
+  width: 893px;
+  background: url(../img/join-in.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.storage__menu-title {
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 130%;
+}
+
+.storage__menu-desc {
+  margin-bottom: 25px;
+  width: 663px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.storage__menu-link {
+  padding: 15px 25px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.storage__menu-buy {
+  padding: 30px 0px;
+  width: 892px;
+  display: flex;
+
+  border-top: 1px solid #13101b;
+  border-bottom: 1px solid #13101b;
+}
+
+.storage__menu-img {
+  border-radius: 6px;
+}
+
+.storage__buy {
+  padding-left: 30px;
+}
+
+.storage__buy-title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 130%;
+}
+
+.storage__buy-desc {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+}
+
+.storage__buy-spangreen {
+  padding: 0px 20px;
+  font-size: 24px;
+  color: #77be1d;
+}
+
+.storage__buy-spangrey {
+  font-size: 24px;
+  opacity: 0.2;
+}
+
+.storage__buy-activation {
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.activation-span {
+  color: #fff;
+}
+
+.storage__buy-service {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.service-span {
+  color: #fff;
+}
+
+.storage__orders {
+  margin-bottom: 80px;
+  display: flex;
+  gap: 792px;
+  flex-direction: column;
+}
+
+.storage__order {
+  /* margin-bottom: 792px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.storage__order-arrange {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 321px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+}
+
+/* .storage__order-arrange:nth-child(3) {
+  border: 2px solid #77be1d;
+} */
+
+.storage__arrange-desc {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.storage__arrange-title {
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 135%;
+}
+
+.storage__arrange-btn {
+  margin-bottom: 30px;
+  padding: 20px 50px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #77be1d;
+
+  background: rgba(119, 190, 29, 0.1);
+  border-radius: 15px;
+}
+
+.storage__arrange-text {
+  display: flex;
+}
+
+.storage__arrange-img {
+  padding: 0px 10px 75px 0px;
+}
+
+.arrange__text {
+  width: 244px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.arrange__linkblue {
+  color: #4885fc;
+}
+
+.arrange__desc-ifspan {
+  padding-right: 5px;
+  color: #77be1d;
+}
+
+/* .storage__navigation */
+
+.storage__navigation {
+  margin: 40px 0 0 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* .storage__navigation .storage__order {
+  margin-top: 30px;
+} */
+
+.storage__navigation-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.storage__navigation-info {
+  padding: 30px 72px 30px 30px;
+  width: 436px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+.storage__navigation-form {
+  margin-bottom: 117px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.storage__navigation-desc {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.storage__navigation-images {
+  display: flex;
+  gap: 10px;
+}
+
+.storage__navigation-input {
+  padding: 25px 620px 25px 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, 0.4);
+
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
